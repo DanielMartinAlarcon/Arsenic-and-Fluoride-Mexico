@@ -16,7 +16,7 @@ class WhichTownsAreNearSites(luigi.Task):
     """
     Reduce the full list of towns to just those that are near a sampling site.
     """
-    output_file = 'interim/towns_near_sites.csv'
+    output_file = 'processed/towns_near_sites.csv'
     # Towns within this radius of a site are considered to have the contaminant
     # levels of that site. Units are kilometers.
     radius = IntParameter(default=5)

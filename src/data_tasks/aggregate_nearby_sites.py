@@ -34,7 +34,7 @@ class AggregateNearbySites(luigi.Task):
     def run(self):
         # --- Process towns --- #
         print('>> Importing list of towns near sites...')
-        towns2 = pd.read_csv('interim/towns_near_sites.csv', index_col=0)
+        towns2 = pd.read_csv('processed/towns_near_sites.csv', index_col=0)
         towns2 = make_geodf(towns2)
 
         # --- Process samples --- #
