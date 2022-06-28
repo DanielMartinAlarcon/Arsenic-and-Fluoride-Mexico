@@ -1,4 +1,4 @@
-arrow==0.14.2
+arrow==0.15.1
 attrs==19.1.0
 backcall==0.1.0
 binaryornot==0.4.4
