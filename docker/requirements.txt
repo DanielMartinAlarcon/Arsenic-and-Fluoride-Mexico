@@ -3,7 +3,7 @@ attrs==19.1.0
 backcall==0.1.0
 binaryornot==0.4.4
 bleach==3.3.0
-certifi==2019.6.16
+certifi==2022.12.7
 chardet==3.0.4
 Click==7.0
 click-plugins==1.1.1
